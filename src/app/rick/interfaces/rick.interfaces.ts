@@ -11,23 +11,23 @@ export interface Info {
 }
 
 export interface Result {
-    id:       number;
-    name:     string;
-    status:   Status;
-    species:  Species;
-    type:     Type;
-    gender:   Gender;
-    origin:   Location;
-    location: Location;
-    image:    string;
-    episode:  string[];
-    url:      string;
-    created:  Date;
+    id:        number;
+    name:      string;
+    status:    string | Status;
+    species?:  Species;
+    type?:     Type;
+    gender:    string |Gender;
+    origin?:   Location;
+    location?: Location;
+    image?:    string;
+    episode?:  string[];
+    url?:      string;
+    created?:  Date;
 }
 
 export enum Gender {
     Female = "Female",
-    Male = "Male",
+    Male =   "Male",
 }
 
 export interface Location {

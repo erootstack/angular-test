@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListarComponent } from './rick/pages/listar/listar.component';
+import { TablaComponent } from './rick/pages/tabla/tabla.component';
+
 
 const routes: Routes = [
   {
     path: '', 
-    component: ListarComponent,
+    component: TablaComponent,
     pathMatch: 'full'
   },
 
