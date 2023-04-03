@@ -6,15 +6,13 @@ import { MaterialModule } from '../material/material.module';
 
 
 
-
-
 @NgModule({
   declarations: [
     TablaComponent,
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
   ]
 })
 export class RickModule { }
